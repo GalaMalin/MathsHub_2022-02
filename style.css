@@ -1,0 +1,127 @@
+body {
+    color: rgb(54, 58, 5);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center; 
+    background-color:rgb(228, 230, 210);    
+}
+
+nav {
+    display: flex;
+    justify-content: center;       
+}
+
+nav > a {
+    padding: 5px 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.about_me_main {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+}
+
+.about_me {
+    display: flex;        
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.about_text {
+    margin: 0px 50px;
+    text-align: left;
+}
+
+img {
+    width: 500px;
+}
+
+.img-js {
+    text-align: right;    
+}
+
+span {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 5px;
+}
+
+#answer1 {
+    font-weight: 300;
+    color: red;
+}
+#answer2 {
+    font-weight: 300;
+    color: green;
+}
+#answer3 {
+    font-weight: 300;
+    color: blue;
+}
+
+.play_game {
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    max-width: 300px;
+    text-align: center;    
+}
+
+.play_game p {
+    margin: 10px 0;
+}
+
+input, button {
+    margin: 20px;
+    height: 30px;
+}
+
+.choosed_block {
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    justify-content: center;
+    align-items: center;    
+}
+
+.choosed_block p {
+    margin: 10px 0;
+}
+
+.choosed_block-container {
+    display: flex;
+    gap: 10px;
+    max-width: 670px;
+    flex-wrap: wrap;
+    
+}
+
+.choosed_block-container > div {
+    width: 150px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+.choosed_el {
+    border: 3px solid black;
+}
